@@ -10,7 +10,7 @@ renderTodoList();
 function renderTodoList(){
  let todoListHTML ='';
 
- todoList.forEach(function(todoObject, index){
+ todoList.forEach((todoObject, index)=>{
     // const todoObject = todoList[i];
     // const name = todoObject.name;
     // const dueDate = todoObject.dueDate;
@@ -54,3 +54,4 @@ function addTodo(){
 }
 
 
+//10 :10
